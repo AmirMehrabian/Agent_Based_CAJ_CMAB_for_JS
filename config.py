@@ -16,7 +16,7 @@ config_dict = {
     # Channel parameter
     "nakagami_shape_param": 2.0,
     # Action parameters
-    "action_set": np.array([1, 4, 8]),
+    "action_set": np.array([1, 2, 5]),
     "action_idx": 0,
     "num_pilot_block": 1,
     "epsilon_mab": 0.2,
@@ -33,9 +33,9 @@ print(config_dict)
 PART_SIZE = 50
 EPISODE_PARTS = 3
 
-coherence_per_part = [1000, 3000, 5000]
+coherence_per_part = [5000, 3000, 1000]
 snr_jn_per_part = [20, 40, 40]
-snr_tn_per_part = [10, 5, 20]
+snr_tn_per_part = [20, 15, 5]
 optimal_actions_idx_per_part = [2, 2, 1]
 
 # Initialize empty arrays
