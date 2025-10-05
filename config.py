@@ -30,7 +30,7 @@ config_dict = {
 }
 print(config_dict)
 
-PART_SIZE = 5
+PART_SIZE = 50
 EPISODE_PARTS = 3
 
 coherence_per_part = [1000, 3000, 5000]
